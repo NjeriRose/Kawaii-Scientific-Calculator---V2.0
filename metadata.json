@@ -1,0 +1,7 @@
+{
+  "name": "Kawaii Scientific Calculator - V2.0",
+  "description": "A cute, pastel-themed scientific calculator with smooth animations and a kawaii aesthetic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
