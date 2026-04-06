@@ -80,7 +80,7 @@ const themes: Theme[] = [
     light: {
       primary: '#FF69B4',
       secondary: '#FFB6C1',
-      accent: '#FFD1DC',
+      accent: '#E81D22',
       bg: '#FFF0F5',
       cardBg: 'rgba(255, 255, 255, 0.4)',
       text: '#D81B60',
@@ -89,11 +89,11 @@ const themes: Theme[] = [
     dark: {
       primary: '#FF85C1',
       secondary: '#5E2B4E',
-      accent: '#FFD1DC',
-      bg: '#1A0F14',
-      cardBg: 'rgba(45, 27, 36, 0.4)',
+      accent: '#E81D22',
+      bg: '#121212',
+      cardBg: 'rgba(255, 105, 180, 0.1)',
       text: '#F5F5F5',
-      muted: '#8E4B6E',
+      muted: '#FFB6C1',
     }
   },
   {
@@ -101,20 +101,20 @@ const themes: Theme[] = [
     name: 'Mickey',
     icon: <Mouse size={16} />,
     light: {
-      primary: '#DA0F10',
-      secondary: '#FFB321',
-      accent: '#000000',
+      primary: '#000000',
+      secondary: '#DA0F10',
+      accent: '#FFB321',
       bg: '#F5F5F5',
       cardBg: 'rgba(255, 255, 255, 0.4)',
       text: '#000000',
       muted: '#424242',
     },
     dark: {
-      primary: '#DA0F10',
-      secondary: '#FFB321',
-      accent: '#FFFFFF',
-      bg: '#000000',
-      cardBg: 'rgba(0, 0, 0, 0.4)',
+      primary: '#FFFFFF',
+      secondary: '#DA0F10',
+      accent: '#FFB321',
+      bg: '#121212',
+      cardBg: 'rgba(255, 255, 255, 0.05)',
       text: '#F5F5F5',
       muted: '#BDBDBD',
     }
@@ -124,9 +124,9 @@ const themes: Theme[] = [
     name: 'Pooh',
     icon: <PawPrint size={16} />,
     light: {
-      primary: '#F8C63D',
+      primary: '#E6B01E',
       secondary: '#F6A6C0',
-      accent: '#8B4513',
+      accent: '#D81C22',
       bg: '#FFF9E6',
       cardBg: 'rgba(255, 255, 255, 0.4)',
       text: '#5D4037',
@@ -135,9 +135,9 @@ const themes: Theme[] = [
     dark: {
       primary: '#F8C63D',
       secondary: '#F6A6C0',
-      accent: '#FFF9E6',
-      bg: '#2D1B00',
-      cardBg: 'rgba(45, 27, 0, 0.4)',
+      accent: '#D81C22',
+      bg: '#121212',
+      cardBg: 'rgba(248, 198, 61, 0.1)',
       text: '#F5F5F5',
       muted: '#A1887F',
     }
@@ -147,20 +147,20 @@ const themes: Theme[] = [
     name: 'Cinderella',
     icon: <Clock size={16} />,
     light: {
-      primary: '#A5D8FF',
-      secondary: '#D0EBFF',
-      accent: '#FFFFFF',
+      primary: '#74B0E0',
+      secondary: '#E2F1F7',
+      accent: '#182952',
       bg: '#F0F7FF',
       cardBg: 'rgba(255, 255, 255, 0.4)',
       text: '#1971C2',
       muted: '#4DABF7',
     },
     dark: {
-      primary: '#A5D8FF',
-      secondary: '#1864AB',
-      accent: '#FFFFFF',
-      bg: '#0B192E',
-      cardBg: 'rgba(11, 25, 46, 0.4)',
+      primary: '#9BC4E2',
+      secondary: '#182952',
+      accent: '#E2F1F7',
+      bg: '#121212',
+      cardBg: 'rgba(155, 196, 226, 0.1)',
       text: '#F5F5F5',
       muted: '#74C0FC',
     }
@@ -170,20 +170,20 @@ const themes: Theme[] = [
     name: 'Ariel',
     icon: <Waves size={16} />,
     light: {
-      primary: '#20C997',
-      secondary: '#BE4BDB',
-      accent: '#F06292',
+      primary: '#2C9C85',
+      secondary: '#9867C5',
+      accent: '#D91E36',
       bg: '#E6FCF5',
       cardBg: 'rgba(255, 255, 255, 0.4)',
       text: '#087F5B',
       muted: '#38D9A9',
     },
     dark: {
-      primary: '#20C997',
+      primary: '#2C9C85',
       secondary: '#862E9C',
-      accent: '#F06292',
-      bg: '#081F1B',
-      cardBg: 'rgba(8, 31, 27, 0.4)',
+      accent: '#D91E36',
+      bg: '#121212',
+      cardBg: 'rgba(44, 156, 133, 0.1)',
       text: '#F5F5F5',
       muted: '#63E6BE',
     }
@@ -193,22 +193,68 @@ const themes: Theme[] = [
     name: 'Belle',
     icon: <Flower size={16} />,
     light: {
-      primary: '#FAB005',
-      secondary: '#FFD43B',
-      accent: '#D9480F',
+      primary: '#FFD700',
+      secondary: '#6CB0D8',
+      accent: '#1C3879',
       bg: '#FFF9DB',
       cardBg: 'rgba(255, 255, 255, 0.4)',
       text: '#E67700',
       muted: '#F59F00',
     },
     dark: {
-      primary: '#FAB005',
-      secondary: '#826A13',
-      accent: '#FFD43B',
-      bg: '#1F1B00',
-      cardBg: 'rgba(31, 27, 0, 0.4)',
+      primary: '#FFD700',
+      secondary: '#1C3879',
+      accent: '#6CB0D8',
+      bg: '#121212',
+      cardBg: 'rgba(255, 215, 0, 0.1)',
       text: '#F5F5F5',
       muted: '#FCC419',
+    }
+  },
+  {
+    id: 'elsa',
+    name: 'Elsa',
+    icon: <Star size={16} />,
+    light: {
+      primary: '#4AA9C0',
+      secondary: '#E8F7FA',
+      accent: '#731D46',
+      bg: '#F0F9FB',
+      cardBg: 'rgba(255, 255, 255, 0.4)',
+      text: '#1B4D5C',
+      muted: '#4A9EB5',
+    },
+    dark: {
+      primary: '#64CBE6',
+      secondary: '#1B4D5C',
+      accent: '#E8F7FA',
+      bg: '#121212',
+      cardBg: 'rgba(100, 203, 230, 0.1)',
+      text: '#F5F5F5',
+      muted: '#3E8AA1',
+    }
+  },
+  {
+    id: 'moana',
+    name: 'Moana',
+    icon: <Waves size={16} />,
+    light: {
+      primary: '#008891',
+      secondary: '#D94B2B',
+      accent: '#55A630',
+      bg: '#F0F7F7',
+      cardBg: 'rgba(255, 255, 255, 0.4)',
+      text: '#004D52',
+      muted: '#007078',
+    },
+    dark: {
+      primary: '#008891',
+      secondary: '#004D52',
+      accent: '#D94B2B',
+      bg: '#121212',
+      cardBg: 'rgba(0, 136, 145, 0.1)',
+      text: '#F5F5F5',
+      muted: '#006169',
     }
   },
   {
@@ -216,20 +262,20 @@ const themes: Theme[] = [
     name: 'Rapunzel',
     icon: <Sun size={16} />,
     light: {
-      primary: '#BE4BDB',
-      secondary: '#FFD43B',
-      accent: '#F06292',
+      primary: '#885FA6',
+      secondary: '#D96C8E',
+      accent: '#FCE883',
       bg: '#F8F0FC',
       cardBg: 'rgba(255, 255, 255, 0.4)',
-      text: '#862E9C',
+      text: '#5F3DC4',
       muted: '#AE3EC9',
     },
     dark: {
-      primary: '#BE4BDB',
+      primary: '#885FA6',
       secondary: '#5F3DC4',
-      accent: '#FFD43B',
-      bg: '#1A0B2E',
-      cardBg: 'rgba(26, 11, 46, 0.4)',
+      accent: '#FCE883',
+      bg: '#121212',
+      cardBg: 'rgba(136, 95, 166, 0.1)',
       text: '#F5F5F5',
       muted: '#D0BFFF',
     }
@@ -246,39 +292,67 @@ type FontStyle = {
 
 const fontStyles: FontStyle[] = [
   {
-    id: 'classic',
-    name: 'Classic Disney',
-    icon: '✨',
+    id: 'minnie',
+    name: 'Minnie Playful',
+    icon: '🎀',
+    primary: "'Waltograph', sans-serif",
+    secondary: "'Poppins', sans-serif"
+  },
+  {
+    id: 'mickey',
+    name: 'Mickey Classic',
+    icon: '🐭',
     primary: "'Waltograph', sans-serif",
     secondary: "'Inter', sans-serif"
   },
   {
-    id: 'princess',
-    name: 'Princess Elegant',
-    icon: '👑',
-    primary: "'Alice in Wonderland', serif",
+    id: 'pooh',
+    name: 'Pooh Cozy',
+    icon: '🐻',
+    primary: "'Quicksand', sans-serif",
     secondary: "'Nunito', sans-serif"
   },
   {
-    id: 'ocean',
-    name: 'Ocean Soft',
-    icon: '🌊',
-    primary: "'Moana', sans-serif",
+    id: 'cinderella',
+    name: 'Cinderella Elegant',
+    icon: '👑',
+    primary: "'Cinzel', serif",
     secondary: "'Lato', sans-serif"
   },
   {
-    id: 'frosted',
-    name: 'Frosted Minimal',
+    id: 'ariel',
+    name: 'Ariel Ocean',
+    icon: '🧜‍♀️',
+    primary: "'The Little Mermaid', sans-serif",
+    secondary: "'Open Sans', sans-serif"
+  },
+  {
+    id: 'belle',
+    name: 'Belle Royal',
+    icon: '👸',
+    primary: "'Playfair Display', serif",
+    secondary: "'Lora', serif"
+  },
+  {
+    id: 'elsa',
+    name: 'Elsa Frosted',
     icon: '❄️',
     primary: "'Ice Kingdom', sans-serif",
     secondary: "'Montserrat', sans-serif"
   },
   {
-    id: 'playful',
-    name: 'Playful Cartoon',
-    icon: '🐭',
-    primary: "'Aladdin', sans-serif",
-    secondary: "'Poppins', sans-serif"
+    id: 'moana',
+    name: 'Moana Adventurous',
+    icon: '🌺',
+    primary: "'Moana', sans-serif",
+    secondary: "'Open Sans', sans-serif"
+  },
+  {
+    id: 'rapunzel',
+    name: 'Rapunzel Dreamy',
+    icon: '🌸',
+    primary: "'Tangled', sans-serif",
+    secondary: "'Nunito', sans-serif"
   }
 ];
 
@@ -336,7 +410,7 @@ export default function App() {
   const chatEndRef = useRef<HTMLDivElement>(null);
   const [baseThemeId, setBaseThemeId] = useState(() => {
     const saved = localStorage.getItem('calculator-base-theme-id');
-    return saved || 'sakura';
+    return saved || 'minnie';
   });
   const [appearance, setAppearance] = useState<'light' | 'dark' | 'system'>(() => {
     const saved = localStorage.getItem('calculator-appearance');
@@ -345,7 +419,7 @@ export default function App() {
 
   const [fontStyleId, setFontStyleId] = useState(() => {
     const saved = localStorage.getItem('calculator-font-style-id');
-    return saved || 'classic';
+    return saved || 'minnie';
   });
 
   const [isSystemDark, setIsSystemDark] = useState(false);
@@ -1110,7 +1184,7 @@ Clear and highlighted.
     switch (type) {
       case 'num': 
         style.backgroundColor = isDarkMode ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 255, 255, 0.4)';
-        style.color = theme.primary;
+        style.color = theme.text;
         break;
       case 'op': 
         style.background = `linear-gradient(135deg, ${theme.primary}, ${theme.secondary})`;
@@ -1123,11 +1197,11 @@ Clear and highlighted.
         break;
       case 'mem': 
         style.backgroundColor = isDarkMode ? 'rgba(255, 255, 255, 0.02)' : 'rgba(255, 255, 255, 0.1)';
-        style.color = theme.primary;
+        style.color = theme.text;
         break;
       case 'action': 
         style.backgroundColor = theme.secondary;
-        style.color = theme.primary;
+        style.color = 'white';
         break;
       case 'equals': 
         style.background = `linear-gradient(135deg, ${theme.primary}, ${theme.secondary})`;
@@ -1163,7 +1237,7 @@ Clear and highlighted.
               </div>
             </motion.div>
 
-            <h1 className={`text-4xl font-black mb-4 tracking-tight`} style={{ color: theme.primary }}>
+            <h1 className={`text-4xl font-black mb-4 tracking-tight font-display`} style={{ color: theme.primary, fontFamily: 'var(--font-display)' }}>
               Kawaii Calc
             </h1>
             
@@ -1428,12 +1502,12 @@ Clear and highlighted.
 
           <div 
             ref={displayRef}
-            className={`text-2xl font-medium overflow-x-auto whitespace-nowrap scrollbar-hide h-10 mb-2 transition-colors`}
-            style={{ color: theme.muted }}
+            className={`text-2xl font-medium overflow-x-auto whitespace-nowrap scrollbar-hide h-10 mb-2 transition-colors opacity-60`}
+            style={{ color: theme.text }}
           >
             {expression || '0'}
           </div>
-          <div className={`text-6xl font-bold break-all transition-colors`} style={{ color: error ? '#F87171' : theme.primary }}>
+          <div className={`text-6xl font-bold break-all transition-colors`} style={{ color: error ? '#F87171' : theme.text }}>
             {result || '0'}
           </div>
 
@@ -1638,9 +1712,10 @@ Clear and highlighted.
 
               <button 
                 onClick={() => {
-                  setBaseThemeId('sakura');
+                  setBaseThemeId('minnie');
+                  setFontStyleId('minnie');
                   setAppearance('system');
-                  setDecimalPlaces(2);
+                  setDecimalPlaces(4);
                   setIsRoundingEnabled(true);
                 }}
                 className={`mt-6 w-full py-3 rounded-2xl font-bold transition-colors flex items-center justify-center gap-2`}
@@ -1737,7 +1812,7 @@ Clear and highlighted.
                           <Trash2 size={32} />
                         </div>
                         <div className="space-y-2">
-                          <h3 className="text-xl font-bold">Clear History?</h3>
+                          <h3 className="text-xl font-bold font-display" style={{ fontFamily: 'var(--font-display)' }}>Clear History?</h3>
                           <p className="text-sm opacity-70">
                             This will permanently delete all your calculation history. This action cannot be undone.
                           </p>
@@ -1847,6 +1922,14 @@ Clear and highlighted.
                         <ReactMarkdown 
                           remarkPlugins={[remarkMath]} 
                           rehypePlugins={[rehypeKatex]}
+                          components={{
+                            h1: ({node, ...props}) => <h1 {...props} style={{ fontFamily: 'var(--font-display)' }} />,
+                            h2: ({node, ...props}) => <h2 {...props} style={{ fontFamily: 'var(--font-display)' }} />,
+                            h3: ({node, ...props}) => <h3 {...props} style={{ fontFamily: 'var(--font-display)' }} />,
+                            p: ({node, ...props}) => <p {...props} style={{ fontFamily: 'var(--font-secondary)' }} />,
+                            li: ({node, ...props}) => <li {...props} style={{ fontFamily: 'var(--font-secondary)' }} />,
+                            code: ({node, ...props}) => <code {...props} style={{ fontFamily: 'var(--font-mono)' }} />
+                          }}
                         >
                           {equationSolution}
                         </ReactMarkdown>
@@ -2015,7 +2098,7 @@ Clear and highlighted.
                   Object.entries(sessionGroups).map(([group, sessions]) => (
                     sessions.length > 0 && (
                       <div key={group} className="space-y-3">
-                        <h3 className="text-xs font-bold uppercase tracking-wider opacity-50 px-2">{group}</h3>
+                        <h3 className="text-xs font-bold uppercase tracking-wider opacity-50 px-2 font-display" style={{ fontFamily: 'var(--font-display)' }}>{group}</h3>
                         <div className="space-y-2">
                           {sessions.map(session => (
                             <div key={session.id} className="relative group">
@@ -2169,6 +2252,14 @@ Clear and highlighted.
                         <ReactMarkdown 
                           remarkPlugins={[remarkMath]} 
                           rehypePlugins={[rehypeKatex]}
+                          components={{
+                            h1: ({node, ...props}) => <h1 {...props} style={{ fontFamily: 'var(--font-display)' }} />,
+                            h2: ({node, ...props}) => <h2 {...props} style={{ fontFamily: 'var(--font-display)' }} />,
+                            h3: ({node, ...props}) => <h3 {...props} style={{ fontFamily: 'var(--font-display)' }} />,
+                            p: ({node, ...props}) => <p {...props} style={{ fontFamily: 'var(--font-secondary)' }} />,
+                            li: ({node, ...props}) => <li {...props} style={{ fontFamily: 'var(--font-secondary)' }} />,
+                            code: ({node, ...props}) => <code {...props} style={{ fontFamily: 'var(--font-mono)' }} />
+                          }}
                         >
                           {msg.content}
                         </ReactMarkdown>
